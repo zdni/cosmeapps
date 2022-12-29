@@ -1,3 +1,5 @@
+import 'package:cosmeapps/screens/healthy_screen.dart';
+import 'package:cosmeapps/screens/routin_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'package:cosmeapps/screens/splash_screen.dart';
@@ -23,6 +25,8 @@ class MyApp extends StatelessWidget {
         HomeScreen.routeName: (context) => const HomeScreen(),
         OpeningScreen.routeName: (context) => const OpeningScreen(),
         SkinScreen.routeName: (context) => const SkinScreen(),
+        RoutinScreen.routeName: (context) => const RoutinScreen(),
+        HealthyScreen.routeName: (context) => const HealthyScreen(),
         BPOMScreen.routeName: (context) => const BPOMScreen(),
       },
     );

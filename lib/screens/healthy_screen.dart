@@ -1,20 +1,18 @@
 import 'package:flutter/material.dart';
 
-import 'package:cosmeapps/screens/skins/first_skin.dart';
-import 'package:cosmeapps/screens/skins/fourth_skin.dart';
-import 'package:cosmeapps/screens/skins/second_skin.dart';
-import 'package:cosmeapps/screens/skins/third_skin.dart';
+import 'package:cosmeapps/screens/healthies/first_healthy.dart';
+import 'package:cosmeapps/screens/healthies/second_healthy.dart';
 
-class SkinScreen extends StatefulWidget {
-  static const name = 'Skin Screen';
-  static const routeName = '/skin';
-  const SkinScreen({super.key});
+class HealthyScreen extends StatefulWidget {
+  static const name = 'Healthy Screen';
+  static const routeName = '/healthy';
+  const HealthyScreen({super.key});
 
   @override
-  State<SkinScreen> createState() => _SkinScreenState();
+  State<HealthyScreen> createState() => _HealthyScreenState();
 }
 
-class _SkinScreenState extends State<SkinScreen> {
+class _HealthyScreenState extends State<HealthyScreen> {
   final _pageController = PageController();
   double currentPage = 0;
 
@@ -42,10 +40,8 @@ class _SkinScreenState extends State<SkinScreen> {
               controller: _pageController,
               scrollDirection: Axis.horizontal,
               children: const [
-                FirstSkin(),
-                SecondSkin(),
-                ThirdSkin(),
-                FourthSkin(),
+                FirstHealthy(),
+                SecondHealthy(),
               ],
             ),
           ),
@@ -56,7 +52,7 @@ class _SkinScreenState extends State<SkinScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: List.generate(
-                  4, 
+                  2, 
                   (index) {
                     return Container(
                       margin: const EdgeInsets.only(right: 5),

@@ -23,8 +23,14 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/images/icon-menu/
     - assets/images/section-1/
     - assets/images/section-2/
+    - assets/images/section-3/
+    - assets/images/section-4/
+    - assets/images/section-5/
+    - assets/images/section-6/
+    - assets/images/section-7/
 
   fonts:
     - family: BodoAmat

@@ -8,7 +8,7 @@ import 'package:cosmeapps/screens/openings/fifth_opening.dart';
 import 'package:cosmeapps/screens/openings/sixth_opening.dart';
 
 class OpeningScreen extends StatefulWidget {
-  static const name = 'BPOM Screen';
+  static const name = 'Opening Screen';
   static const routeName = '/opening';
   const OpeningScreen({super.key});
 

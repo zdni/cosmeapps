@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:cosmeapps/screens/opening_screen.dart';
 import 'package:cosmeapps/screens/skin_screen.dart';
+import 'package:cosmeapps/screens/routin_screen.dart';
+import 'package:cosmeapps/screens/healthy_screen.dart';
 import 'package:cosmeapps/screens/bpom_screen.dart';
 
 import 'package:cosmeapps/widgets/text_bodo_amat.dart';
@@ -15,42 +17,42 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     var menus = [
       {
-        'image': 'assets/images/section-1/1-2.png',
+        'image': 'assets/images/icon-menu/menu-1.png',
         'title': 'Definisi dan Penggolongan Kosmetik',
         'route': OpeningScreen.routeName,
       },
       {
-        'image': 'assets/images/section-2/2-1.png',
+        'image': 'assets/images/icon-menu/menu-2.png',
         'title': 'Jenis Kulit',
         'route': SkinScreen.routeName,
       },
       {
-        'image': 'assets/images/section-1/1-21.png',
+        'image': 'assets/images/icon-menu/menu-3.png',
         'title': 'Skincare Routine',
+        'route': RoutinScreen.routeName,
+      },
+      {
+        'image': 'assets/images/icon-menu/menu-4.png',
+        'title': 'Actived Ingeredients dalam kosmetik',
         'route': SkinScreen.routeName,
       },
       {
-        'image': 'assets/images/section-2/2-1.png',
-        'title': 'actived ingeredients dalam kosmetik',
-        'route': SkinScreen.routeName,
-      },
-      {
-        'image': 'assets/images/section-2/2-7.png',
+        'image': 'assets/images/icon-menu/menu-5.png',
         'title': 'Kulit Sehat',
-        'route': SkinScreen.routeName,
+        'route': HealthyScreen.routeName,
       },
       {
-        'image': 'assets/images/section-2/2-1.png',
+        'image': 'assets/images/icon-menu/menu-6.png',
         'title': 'Produk Kosmetik Berbahaya',
         'route': SkinScreen.routeName,
       },
       {
-        'image': 'assets/images/section-2/2-1.png',
+        'image': 'assets/images/icon-menu/menu-7.png',
         'title': 'Memilih Kosmetik yang Aman',
         'route': SkinScreen.routeName,
       },
       {
-        'image': 'assets/images/logo-bpom.png',
+        'image': 'assets/images/icon-menu/menu-8.png',
         'title': 'Portal BPOM',
         'route': BPOMScreen.routeName,
       },
