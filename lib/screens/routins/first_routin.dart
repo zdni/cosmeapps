@@ -25,7 +25,7 @@ class FirstRoutin extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 15.0*scaleWidth),
                   child: const Center(
                     child: TextBodoAmat(
-                      24.0,
+                      18.0,
                       'Okey beauty people, setelah mengetahui jenis kulit kita, saatnya kita ke skincare routine atau basic skincare yang sesuai dengan jenis kulit kita.',
                       TextAlign.center,
                     Colors.white
@@ -37,7 +37,7 @@ class FirstRoutin extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 15.0*scaleWidth),
                   child: const Center(
                     child: TextBodoAmat(
-                      28.0,
+                      18.0,
                       'Jadi mulai sekarang jangan pakai skincare karena ikut-ikutan yaa...',
                       TextAlign.center,
                     Colors.white
@@ -51,7 +51,7 @@ class FirstRoutin extends StatelessWidget {
             width: 405*scaleWidth,
             height: 525*scaleHeight,
             child: Image.asset(
-              'assets/images/section-3/3-1.png',
+              'assets/images/section-3/3-1.webp',
               fit: BoxFit.fitHeight,
               alignment: Alignment.bottomCenter,
             ),

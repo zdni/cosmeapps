@@ -20,23 +20,23 @@ class FourteenthRoutin extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 25.0),
           child: Column(
             children: [
-              const SizedBox(height: 35.0),
+              const SizedBox(height: 45.0),
               const TextBoleh(
-                48.0, 
+                26.0, 
                 'Jenis-jenis eksfoliasi', 
-                TextAlign.center, 
-                Colors.white
-              ),
-              const SizedBox(height: 15.0),
-              const TextBodoAmat(
-                28.0, 
-                '"Eksfoliasi Kimia"', 
                 TextAlign.center, 
                 Colors.white
               ),
               const SizedBox(height: 25.0),
               const TextBodoAmat(
-                24.0, 
+                20.0, 
+                '"Eksfoliasi Kimia"', 
+                TextAlign.center, 
+                Colors.white
+              ),
+              const SizedBox(height: 10.0),
+              const TextBodoAmat(
+                14.0, 
                 'eksfoliator ini dapat berbentuk krim, lotion, dan gel. Eksfoliator ini direkomendasikan untuk penderita jerawat, namun juga cocok untuk kulit kering karena dapat membantu pelembab menembus lebih baik kedalam kulit.', 
                 TextAlign.center, 
                 Colors.white
@@ -44,26 +44,26 @@ class FourteenthRoutin extends StatelessWidget {
               SizedBox(
                 width: 511*scaleWidth,
                 child: Image.asset(
-                  'assets/images/section-3/3-27.png'
+                  'assets/images/section-3/3-27.webp'
                 ),
               ),
-              const SizedBox(height: 35.0),
+              const SizedBox(height: 25.0),
               const TextBodoAmat(
-                28.0, 
+                20.0, 
                 '"Eksfoliasi Ensim"', 
                 TextAlign.center, 
                 Colors.white
               ),
-              const SizedBox(height: 25.0),
+              const SizedBox(height: 10.0),
               const TextBodoAmat(
-                24.0, 
+                14.0, 
                 'Eksfoliator ini cocok untuk kulit sensitif yang tidak dapat menggunakan eksfoliator asam. umumnya berasal dari tumbuhan.', 
                 TextAlign.center, 
                 Colors.white
               ),
-              const SizedBox(height: 15.0),
+              const SizedBox(height: 4.0),
               const TextBodoAmat(
-                24.0, 
+                14.0, 
                 'Contoh eksfoliator enzim: Enzim papain dari pepaya, bromelain dari nanas, dan enzim dari labu yang dapat dilihat pada komposisi dalam kemasan.', 
                 TextAlign.center, 
                 Colors.white
@@ -75,7 +75,7 @@ class FourteenthRoutin extends StatelessWidget {
                   SizedBox(
                     width: 80*scaleWidth,
                     child: Image.asset(
-                      'assets/images/section-3/3-28.png',
+                      'assets/images/section-3/3-28.webp',
                       fit: BoxFit.fitWidth,
                       alignment: Alignment.center,
                     ),
@@ -84,7 +84,7 @@ class FourteenthRoutin extends StatelessWidget {
                   const Expanded(
                     flex: 1,
                     child: TextBodoAmat(
-                      18.0, 
+                      14.0, 
                       'Untuk kulit berminyak, eksfoliasi bisa dilakukan sesering yang dibutuhkan, sekitar 3-5 kali seminggu. Namun untuk jenis kulit laninnya sebaiknya dibatas 1-2 kali seminggu', 
                       TextAlign.left, 
                       Colors.white

@@ -29,7 +29,7 @@ class SplashScreen extends StatelessWidget {
               width: 404*scaleWidth,
               height: 500*scaleHeight,
               child: Image.asset(
-                'assets/images/avatar-opening.png',
+                'assets/images/avatar-opening.webp',
                 fit: BoxFit.fitHeight,
                 alignment: Alignment.bottomLeft,
               ),
@@ -58,7 +58,7 @@ class SplashScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 25.0),
                     Image.asset(
-                      'assets/images/logo.png',
+                      'assets/images/logo.webp',
                       width: 243*scaleWidth,
                     ),
                     const SizedBox(height: 25.0),

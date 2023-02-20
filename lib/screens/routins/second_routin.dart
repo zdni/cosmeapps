@@ -9,24 +9,24 @@ class SecondRoutin extends StatefulWidget {
 }
 
 class _SecondRoutinState extends State<SecondRoutin> {
-  final _pageController = PageController(viewportFraction: 0.877);
+  final _pageController = PageController();
   double currentPage = 0;
 
   var images = [
     {
-      'image': 'assets/images/section-3/3-2.png',
+      'image': 'assets/images/section-3/3-2.webp',
       'text': 'Pembersih kulit (Cleanser)',
     },
     {
-      'image': 'assets/images/section-3/3-3.png',
+      'image': 'assets/images/section-3/3-3.webp',
       'text': 'Pelembab kulit (Mouisturizer)',
     },
     {
-      'image': 'assets/images/section-3/3-4.png',
+      'image': 'assets/images/section-3/3-4.webp',
       'text': 'Pelindung kulit (Sunscreen)',
     },
     {
-      'image': 'assets/images/section-3/3-5.png',
+      'image': 'assets/images/section-3/3-5.webp',
       'text': 'Eksfoliasi kulit (Eksfoliator)',
     },
   ];
@@ -48,12 +48,12 @@ class _SecondRoutinState extends State<SecondRoutin> {
       backgroundColor: const Color.fromARGB(255, 153, 204, 204),
       body: SingleChildScrollView(
         child: Container(
-          padding: const EdgeInsets.symmetric(horizontal: 10.0),
+          padding: const EdgeInsets.symmetric(horizontal: 25.0),
           child: Column(
             children: [
               const SizedBox(height: 55),
               const TextBodoAmat(
-                24.0, 
+                18.0, 
                 'Skincare routine adalah proses merawat kulit yang merupakan tugas penting untuk memastikan kulit dalam kondisi baik dan sehat', 
                 TextAlign.center, 
                 Colors.white
@@ -84,7 +84,7 @@ class _SecondRoutinState extends State<SecondRoutin> {
                                 ),
                                 const SizedBox(height: 15),
                                 TextBodoAmat(
-                                  20.0, 
+                                  14.0, 
                                   images[index]['text']!, 
                                   TextAlign.center, 
                                   Colors.white
@@ -117,7 +117,7 @@ class _SecondRoutinState extends State<SecondRoutin> {
               ),
               const SizedBox(height: 25.0),
               const TextBodoAmat(
-                24.0, 
+                17.0, 
                 'Skincare routine berbeda untuk tiap kulit, yuk kita bahas...', 
                 TextAlign.center, 
                 Colors.white

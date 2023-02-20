@@ -20,7 +20,7 @@ class EightRoutin extends StatelessWidget {
             children: [
               const SizedBox(height: 45.0),
               const TextBoleh(
-                48.0, 
+                26.0, 
                 'Pelindung kulit (Sunscreen)', 
                 TextAlign.center, 
                 Colors.white,
@@ -29,21 +29,21 @@ class EightRoutin extends StatelessWidget {
               SizedBox(
                 width: 280*scaleWidth,
                 child: Image.asset(
-                  'assets/images/section-3/3-4.png',
+                  'assets/images/section-3/3-4.webp',
                   fit: BoxFit.fitWidth,
                   alignment: Alignment.center,
                 ),
               ),
               const SizedBox(height: 45.0),
               const TextBodoAmat(
-                24.0, 
+                17.0, 
                 'Sunscreen/ Sun Protection/ Tabir surya merupakan kosmetik pelindung yang memiliki peran penting dalam menjaga kesehatan kulit, mengingat aktivitas sehari-hari sebagian besar yang kita lakukan di luar rumah yang cenderung terpapar sinar matahari.', 
                 TextAlign.center, 
                 Colors.white,
               ),
               const SizedBox(height: 15.0),
               const TextBodoAmat(
-                24.0, 
+                17.0, 
                 'Namun, saat berada di dalam rumahpun sunscreen juga tetap digunakan, karena sifat sinar UV yang dapat menembus ke dalam rumah sekalipun.', 
                 TextAlign.center, 
                 Colors.white,

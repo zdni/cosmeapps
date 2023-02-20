@@ -13,10 +13,8 @@ class _FourthRoutinState extends State<FourthRoutin> {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-    double height = MediaQuery.of(context).size.height;
 
     double scaleWidth = width/511;
-    double scaleHeight = height/1077;
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 153, 204, 204),
       body: SingleChildScrollView(
@@ -27,7 +25,7 @@ class _FourthRoutinState extends State<FourthRoutin> {
               const SizedBox(height: 45.0),
               const Center(
                 child: TextBoleh(
-                  28.0, 
+                  26.0, 
                   'Cleanser berdasarkan jenis kulit', 
                   TextAlign.center, 
                   Colors.white
@@ -41,9 +39,9 @@ class _FourthRoutinState extends State<FourthRoutin> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       SizedBox(
-                        width: 180*scaleWidth,
+                        width: 140*scaleWidth,
                         child: Image.asset(
-                          'assets/images/section-3/3-6.png',
+                          'assets/images/section-3/3-6.webp',
                           fit: BoxFit.fitWidth,
                           alignment: Alignment.center,
                         ),
@@ -62,14 +60,14 @@ class _FourthRoutinState extends State<FourthRoutin> {
                     child: Column(
                       children: const [
                         TextBodoAmat(
-                          20.0, 
+                          14.0, 
                           'Kulit kering sebaiknya hindari penggunaan sabun cuci muka yang terlalu banyak busa (foaming cleanser) karena dapat menghilangkan minyak alami kulit.', 
                           TextAlign.left, 
                           Colors.white
                         ),
-                        SizedBox(height: 15.0),
+                        SizedBox(height: 8.0),
                         TextBodoAmat(
-                          20.0, 
+                          14.0, 
                           'Gunakan pembersih wajah dengan sifat pelembab dan tidak menghasilkan banyak busa sehingga tidak akan membuat kulit kering dan dehidrasi.', 
                           TextAlign.left, 
                           Colors.white
@@ -88,14 +86,14 @@ class _FourthRoutinState extends State<FourthRoutin> {
                     child: Column(
                       children: const [
                         TextBodoAmat(
-                          20.0, 
+                          14.0, 
                           'Kulit berminyak sebaiknya menggunakan pembersih gel (gel cleanser) yang memiliki konsistensi bening seperti jeli yang membersihkan secara mendalam hanya dengan sekali cuci.', 
                           TextAlign.left, 
                           Colors.white
                         ),
-                        SizedBox(height: 15.0),
+                        SizedBox(height: 8.0),
                         TextBodoAmat(
-                          20.0, 
+                          14.0, 
                           'Pembersih yang mengandung ekstrak tumbuhan direkomendasikan untuk kulit berminyak karena dapat membersihkan pori-pori dan mengurangi penumpukan minyak juga digunakan untuk mengobati jerawat.', 
                           TextAlign.left, 
                           Colors.white
@@ -108,9 +106,9 @@ class _FourthRoutinState extends State<FourthRoutin> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       SizedBox(
-                        width: 180*scaleWidth,
+                        width: 140*scaleWidth,
                         child: Image.asset(
-                          'assets/images/section-3/3-7.png',
+                          'assets/images/section-3/3-7.webp',
                           fit: BoxFit.fitWidth,
                           alignment: Alignment.center,
                         ),
@@ -133,9 +131,9 @@ class _FourthRoutinState extends State<FourthRoutin> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       SizedBox(
-                        width: 180*scaleWidth,
+                        width: 140*scaleWidth,
                         child: Image.asset(
-                          'assets/images/section-3/3-6.png',
+                          'assets/images/section-3/3-6.webp',
                           fit: BoxFit.fitWidth,
                           alignment: Alignment.center,
                         ),
@@ -154,7 +152,7 @@ class _FourthRoutinState extends State<FourthRoutin> {
                     child: Column(
                       children: const [
                         TextBodoAmat(
-                          20.0, 
+                          14.0, 
                           'Kulit normal sebaiknya menggunakan pembersih yang tidak banyak busa, agar tidak membuat kulit kering.', 
                           TextAlign.left, 
                           Colors.white

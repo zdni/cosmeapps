@@ -17,9 +17,9 @@ class ThirdRoutin extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 25.0),
           child: Column(
             children: [
-              const SizedBox(height: 35.0),
+              const SizedBox(height: 45.0),
               const TextBoleh(
-                48.0, 
+                26.0, 
                 'Pembersih Kulit (Cleanser)', 
                 TextAlign.center, 
                 Colors.white
@@ -28,21 +28,21 @@ class ThirdRoutin extends StatelessWidget {
               SizedBox(
                 width: 280*scaleWidth,
                 child: Image.asset(
-                  'assets/images/section-3/3-2.png',
+                  'assets/images/section-3/3-2.webp',
                   fit: BoxFit.fitWidth,
                   alignment: Alignment.center,
                 ),
               ),
-              const SizedBox(height: 15.0),
+              const SizedBox(height: 35.0),
               const TextBodoAmat(
-                24.0, 
+                17.0, 
                 'jenis kosmetik yang digunakan untuk membersihkan kulit adalah sabun cuci muka (face wash).', 
                 TextAlign.center, 
                 Colors.white
               ),
               const SizedBox(height: 15.0),
               const TextBodoAmat(
-                24.0, 
+                17.0, 
                 'Face wash adalah larutan pembersih wajah yang mengangkat sel kulit mati, meinyak, kotoran, dan pollusi lainnya dari wajah.', 
                 TextAlign.center, 
                 Colors.white

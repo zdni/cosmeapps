@@ -16,19 +16,19 @@ class _ThirteenthRoutinState extends State<ThirteenthRoutin> {
 
   var images = [
     {
-      'image': 'assets/images/section-3/3-23.png',
+      'image': 'assets/images/section-3/3-23.webp',
       'text': 'Kain Mikrofiber',
     },
     {
-      'image': 'assets/images/section-3/3-24.png',
+      'image': 'assets/images/section-3/3-24.webp',
       'text': 'Krital Gula',
     },
     {
-      'image': 'assets/images/section-3/3-25.png',
+      'image': 'assets/images/section-3/3-25.webp',
       'text': 'Batu Apung',
     },
     {
-      'image': 'assets/images/section-3/3-26.png',
+      'image': 'assets/images/section-3/3-26.webp',
       'text': 'Spons/Sikat Abrasif',
     },
   ];
@@ -57,28 +57,28 @@ class _ThirteenthRoutinState extends State<ThirteenthRoutin> {
             children: [
               const SizedBox(height: 35.0),
               const TextBoleh(
-                48.0, 
+                26.0, 
                 'Jenis-jenis eksfoliasi', 
                 TextAlign.center, 
                 Colors.white
               ),
               const SizedBox(height: 15.0),
               const TextBodoAmat(
-                28.0, 
+                20.0, 
                 '"Eksfoliasi mekanis"', 
                 TextAlign.center, 
                 Colors.white
               ),
               const SizedBox(height: 25.0),
               const TextBodoAmat(
-                24.0, 
+                17.0, 
                 'Semua jenis pengelupasan/eksfoliasi kulit yang menggunakan tangan, jari atau aplikator dikenal dengan eksfoliasi kulit manual/ eksfoliasi mekanis. Eksfoliasi ini sangat baik untuk orang dengan kulit normal.', 
                 TextAlign.center, 
                 Colors.white
               ),
               const SizedBox(height: 15.0),
               const TextBodoAmat(
-                24.0, 
+                17.0, 
                 'Contoh Eksfoliator mekanis:', 
                 TextAlign.center, 
                 Colors.white
@@ -89,7 +89,7 @@ class _ThirteenthRoutinState extends State<ThirteenthRoutin> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     SizedBox(
-                      height: 250.0,
+                      height: 200.0,
                       child: PageView(
                         physics: const BouncingScrollPhysics(),
                         controller: _pageController,
@@ -100,7 +100,6 @@ class _ThirteenthRoutinState extends State<ThirteenthRoutin> {
                             margin: const EdgeInsets.only(right: 15.0),
                             child: Column(
                               children: [
-                                const SizedBox(height: 8),
                                 SizedBox(
                                   height: 120.0,
                                   child: Image.asset(
@@ -108,9 +107,9 @@ class _ThirteenthRoutinState extends State<ThirteenthRoutin> {
                                     fit: BoxFit.cover,
                                   ),
                                 ),
-                                const SizedBox(height: 15),
+                                const SizedBox(height: 8),
                                 TextBodoAmat(
-                                  20.0, 
+                                  14.0, 
                                   images[index]['text']!, 
                                   TextAlign.center, 
                                   Colors.white

@@ -15,20 +15,20 @@ class SixthOpening extends StatefulWidget {
 }
 
 class _SixthOpeningState extends State<SixthOpening> {
-  final _pageController = PageController(viewportFraction: 0.877);
+  final _pageController = PageController();
   double currentPage = 0;
 
   var cosmetics = [
     {
-      'image': 'assets/images/section-1/1-25.png',
+      'image': 'assets/images/section-1/1-25.webp',
       'text': 'kosmetik medik untuk mengatasi penuaan dini (antiaging)',
     },
     {
-      'image': 'assets/images/section-1/1-26.png',
+      'image': 'assets/images/section-1/1-26.webp',
       'text': 'kosmetik medik untuk mengatasi kelainan kulit seperti jerawat dan noda hitam (antiaging)',
     },
     {
-      'image': 'assets/images/section-1/1-27.png',
+      'image': 'assets/images/section-1/1-27.webp',
       'text': 'kosmetik medik untuk mengatasi kelainan kulit kepala, misalnya ketombe (antidandruff)',
     },
   ];
@@ -63,9 +63,9 @@ class _SixthOpeningState extends State<SixthOpening> {
                   Column(
                     children: [
                       SizedBox(
-                        width: 30.0,
+                        width: 28.0,
                         child: Image.asset(
-                          'assets/images/stiker-1-left.png',
+                          'assets/images/stiker-1-left.webp',
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -73,7 +73,7 @@ class _SixthOpeningState extends State<SixthOpening> {
                     ],
                   ),
                   const TextBoleh(
-                    30.0, 
+                    26.0, 
                     'Penggolongan Kosmetik', 
                     TextAlign.center, 
                     Colors.white
@@ -81,9 +81,9 @@ class _SixthOpeningState extends State<SixthOpening> {
                   Column(
                     children: [
                       SizedBox(
-                        width: 30.0,
+                        width: 28.0,
                         child: Image.asset(
-                          'assets/images/stiker-1-right.png',
+                          'assets/images/stiker-1-right.webp',
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -93,32 +93,32 @@ class _SixthOpeningState extends State<SixthOpening> {
                 ],
               ),
               const TextBodoAmat(
-                20.0, 
+                14.0, 
                 'Sejak tahun 1995, Prof. Dr. Lubowe mengemukanan perlunya kosmetik dengan bahan bahan yang secara farmakologis aktif atau bahan obat untuk menyembuhkan kelainan pada kulit dan adneksonanya, atau minimal mempertahankan kondisi kulit yang sudah baik. Kosmetik seperti itu disebut cosmedics singkatan dari Medicated Cosmetics (Kosmetik Medik)', 
                 TextAlign.justify, 
                 Colors.white
               ),
               Container(
-                margin: const EdgeInsets.symmetric(vertical: 35.0),
-                width: 410*scaleWidth,
+                margin: const EdgeInsets.symmetric(vertical: 20.0),
+                width: 360*scaleWidth,
                 child: Image.asset(
-                  'assets/images/section-1/cosmetics-16.png',
+                  'assets/images/section-1/cosmetics-16.webp',
                   fit: BoxFit.cover,
                 ),
               ),
               const TextBodoAmat(
-                20.0, 
+                14.0, 
                 'Secara garis besar, Kosmetik medik yang dapat mengatasi kelainan kulit adalah:', 
-                TextAlign.left, 
+                TextAlign.justify, 
                 Colors.white
               ),
-              const SizedBox(height: 25),
+              const SizedBox(height: 20),
               Center(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     SizedBox(
-                      height: 180.0,
+                      height: 200.0,
                       child: PageView(
                         physics: const BouncingScrollPhysics(),
                         controller: _pageController,
@@ -138,7 +138,7 @@ class _SixthOpeningState extends State<SixthOpening> {
                                 ),
                                 const SizedBox(height: 15),
                                 TextBodoAmat(
-                                  20.0, 
+                                  14.0, 
                                   cosmetics[index]['text']!, 
                                   TextAlign.center, 
                                   Colors.white

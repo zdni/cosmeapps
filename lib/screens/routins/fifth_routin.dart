@@ -18,7 +18,7 @@ class FifthRoutin extends StatelessWidget {
           children: [
             const SizedBox(height: 45.0),
             const TextBoleh(
-              48.0, 
+              26.0, 
               'Pelembab kulit (moisturizer)', 
               TextAlign.center, 
               Colors.white,
@@ -27,17 +27,20 @@ class FifthRoutin extends StatelessWidget {
             SizedBox(
               width: 280*scaleWidth,
               child: Image.asset(
-                'assets/images/section-3/3-3.png',
+                'assets/images/section-3/3-3.webp',
                 fit: BoxFit.fitWidth,
                 alignment: Alignment.center,
               ),
             ),
             const SizedBox(height: 45.0),
-            const TextBodoAmat(
-              24.0, 
-              'Moisturizer merupakan salah satu basic skincare yang harus digunakan untuk menjaga kelembabab kulit.', 
-              TextAlign.center, 
-              Colors.white,
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 25*scaleWidth),
+              child: const TextBodoAmat(
+                17.0, 
+                'Moisturizer merupakan salah satu basic skincare yang harus digunakan untuk menjaga kelembabab kulit.', 
+                TextAlign.center, 
+                Colors.white,
+              ),
             ),
             const SizedBox(height: 45.0),
           ],

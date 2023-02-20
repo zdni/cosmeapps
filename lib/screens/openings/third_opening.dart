@@ -13,72 +13,72 @@ class ThirdOpening extends StatefulWidget {
 }
 
 class _ThirdOpeningState extends State<ThirdOpening> {
-  final _pageController = PageController(viewportFraction: 0.877);
+  final _pageController = PageController();
   double currentPage = 0;
 
   var cosmetics = [
     {
-      'image': 'assets/images/section-1/cosmetics-1.png',
+      'image': 'assets/images/section-1/cosmetics-1.webp',
       'title': 'Preparat untuk bayi',
       'ex': 'cth: bedak bayi, minyak bayi'
     },
     {
-      'image': 'assets/images/section-1/cosmetics-2.png',
+      'image': 'assets/images/section-1/cosmetics-2.webp',
       'title': 'Preparat untuk mandi',
       'ex': 'cth: bedak bay, minyak bayi'
     },
     {
-      'image': 'assets/images/section-1/cosmetics-3.png',
+      'image': 'assets/images/section-1/cosmetics-3.webp',
       'title': 'Preparat untuk mata',
       'ex': 'cth: Mascara, eye shadow'
     },
     {
-      'image': 'assets/images/section-1/cosmetics-4.png',
+      'image': 'assets/images/section-1/cosmetics-4.webp',
       'title': 'Preparat untuk wangi-wangian',
       'ex': 'cth: Parfum'
     },
     {
-      'image': 'assets/images/section-1/cosmetics-5.png',
+      'image': 'assets/images/section-1/cosmetics-5.webp',
       'title': 'Preparat untuk rambut',
       'ex': 'cth: Hair spray'
     },
     {
-      'image': 'assets/images/section-1/cosmetics-6.png',
+      'image': 'assets/images/section-1/cosmetics-6.webp',
       'title': 'Preparat pewarna rambut',
       'ex': 'cth: cat rambut'
     },
     {
-      'image': 'assets/images/section-1/cosmetics-7.png',
+      'image': 'assets/images/section-1/cosmetics-7.webp',
       'title': 'Preparat untuk make-up',
       'ex': 'cth: bedak, lipstik'
     },
     {
-      'image': 'assets/images/section-1/cosmetics-8.png',
+      'image': 'assets/images/section-1/cosmetics-8.webp',
       'title': 'Preparat untuk kebersihan mulut',
       'ex': 'cth: mouth wash, pasta gigi'
     },
     {
-      'image': 'assets/images/section-1/cosmetics-9.png',
+      'image': 'assets/images/section-1/cosmetics-9.webp',
       'title': 'Preparat untuk kebersihan badan',
       'ex': 'cth: deodorant'
     },
     {
-      'image': 'assets/images/section-1/cosmetics-10.png',
+      'image': 'assets/images/section-1/cosmetics-10.webp',
       'title': 'Preparat kuku',
       'ex': 'cth: cat kuku'
     },
     {
-      'image': 'assets/images/section-1/cosmetics-11.png',
+      'image': 'assets/images/section-1/cosmetics-11.webp',
       'title': 'Preparat perawatan kulit',
       'ex': 'cth: lotion, lulur'
     },
     {
-      'image': 'assets/images/section-1/cosmetics-12.png',
+      'image': 'assets/images/section-1/cosmetics-12.webp',
       'title': 'Preparat cukur',
       'ex': 'cth: sabun cukur'
     },
     {
-      'image': 'assets/images/section-1/cosmetics-13.png',
+      'image': 'assets/images/section-1/cosmetics-13.webp',
       'title': 'Preparat untuk suncreen',
       'ex': 'cth: sunscreen foundation'
     },
@@ -108,9 +108,9 @@ class _ThirdOpeningState extends State<ThirdOpening> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const SizedBox(width: 30.0),
+                  const SizedBox(width: 28.0),
                   const TextBoleh(
-                    30.0, 
+                    26.0, 
                     'Penggolongan kosmetik', 
                     TextAlign.center,
                     Colors.white,
@@ -118,9 +118,9 @@ class _ThirdOpeningState extends State<ThirdOpening> {
                   Column(
                     children: [
                       SizedBox(
-                        width: 30.0,
+                        width: 28.0,
                         child: Image.asset(
-                          'assets/images/stiker-1-right.png',
+                          'assets/images/stiker-1-right.webp',
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -130,7 +130,7 @@ class _ThirdOpeningState extends State<ThirdOpening> {
                 ],
               ),
               const TextBodoAmat(
-                18.0, 
+                17.0, 
                 '1) Berdasarkan Peraturan Menteri Kesehatan RI:', 
                 TextAlign.center,
                 Colors.white
@@ -161,14 +161,14 @@ class _ThirdOpeningState extends State<ThirdOpening> {
                                 ),
                                 const SizedBox(height: 25),
                                 TextBodoAmat(
-                                  28.0, 
+                                  17.0, 
                                   cosmetics[index]['title']!,
                                   TextAlign.center,
                                 Colors.white
                                 ),
                                 const SizedBox(height: 8.0),
                                 TextBodoAmat(
-                                  18.0, 
+                                  14.0, 
                                     cosmetics[index]['ex']!,
                                   TextAlign.center,
                                 Colors.black

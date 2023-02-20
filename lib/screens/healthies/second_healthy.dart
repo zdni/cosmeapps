@@ -23,9 +23,9 @@ class SecondHealthy extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 25.0),
             child: Column(
               children: [
-                const SizedBox(height: 25.0),
+                const SizedBox(height: 45.0),
                 const TextBoleh(
-                  40.0, 
+                  26.0, 
                   '5 komponen kulit sehat, terdiri dari:', 
                   TextAlign.center, 
                   Colors.white,
@@ -34,7 +34,7 @@ class SecondHealthy extends StatelessWidget {
                 SizedBox(
                   width: 298*scaleWidth,
                   child: Image.asset(
-                    'assets/images/section-5/5-2.png',
+                    'assets/images/section-5/5-2.webp',
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -42,7 +42,7 @@ class SecondHealthy extends StatelessWidget {
                 Row(
                   children: const [
                     TextBoleh(
-                      58.0, 
+                      26.0, 
                       '1', 
                       TextAlign.center, 
                       Colors.white
@@ -51,7 +51,7 @@ class SecondHealthy extends StatelessWidget {
                     Expanded(
                       flex: 1,
                       child: TextBodoAmat(
-                        22.0, 
+                        17.0, 
                         'Warna kulit rata, warna kulit yang konsisten menandakan kulit sehat.', 
                         TextAlign.left, 
                         Colors.white
@@ -63,7 +63,7 @@ class SecondHealthy extends StatelessWidget {
                 Row(
                   children: const [
                     TextBoleh(
-                      58.0, 
+                      26.0, 
                       '2', 
                       TextAlign.center, 
                       Colors.white
@@ -72,7 +72,7 @@ class SecondHealthy extends StatelessWidget {
                     Expanded(
                       flex: 1,
                       child: TextBodoAmat(
-                        22.0, 
+                        17.0, 
                         'warna kulit cerah dan tidak kusam.', 
                         TextAlign.left, 
                         Colors.white
@@ -84,7 +84,7 @@ class SecondHealthy extends StatelessWidget {
                 Row(
                   children: const [
                     TextBoleh(
-                      58.0, 
+                      26.0, 
                       '3', 
                       TextAlign.center, 
                       Colors.white
@@ -93,7 +93,7 @@ class SecondHealthy extends StatelessWidget {
                     Expanded(
                       flex: 1,
                       child: TextBodoAmat(
-                        22.0, 
+                        17.0, 
                         'Tekstur halus dan bersih, saat disentuh kulit terasa mulus dan apabila dilihat dari dekat permukaan kulit rata.', 
                         TextAlign.left, 
                         Colors.white
@@ -105,7 +105,7 @@ class SecondHealthy extends StatelessWidget {
                 Row(
                   children: const [
                     TextBoleh(
-                      58.0, 
+                      26.0, 
                       '4', 
                       TextAlign.center, 
                       Colors.white
@@ -114,7 +114,7 @@ class SecondHealthy extends StatelessWidget {
                     Expanded(
                       flex: 1,
                       child: TextBodoAmat(
-                        22.0, 
+                        17.0, 
                         'elastisitas kenyal dan terhidrasi, tidak ada sel kulit mati.', 
                         TextAlign.left, 
                         Colors.white
@@ -126,7 +126,7 @@ class SecondHealthy extends StatelessWidget {
                 Row(
                   children: const [
                     TextBoleh(
-                      58.0, 
+                      26.0, 
                       '5', 
                       TextAlign.center, 
                       Colors.white
@@ -135,7 +135,7 @@ class SecondHealthy extends StatelessWidget {
                     Expanded(
                       flex: 1,
                       child: TextBodoAmat(
-                        22.0, 
+                        17.0, 
                         'sensasi kulit normal, tidak ada rasa yang bermasalah pada kulit.', 
                         TextAlign.left, 
                         Colors.white
@@ -166,7 +166,7 @@ class SecondHealthy extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 45),
+                const SizedBox(height: 60),
               ],
             ),
           ),

@@ -20,7 +20,7 @@ class TwelfthRoutin extends StatelessWidget {
             children: [
               const SizedBox(height: 35.0),
               const TextBoleh(
-                48.0, 
+                26.0, 
                 'Eksfoliasi (Eksfoliator)', 
                 TextAlign.center, 
                 Colors.white
@@ -29,14 +29,14 @@ class TwelfthRoutin extends StatelessWidget {
               SizedBox(
                 width: 280*scaleWidth,
                 child: Image.asset(
-                  'assets/images/section-3/3-5.png',
+                  'assets/images/section-3/3-5.webp',
                   fit: BoxFit.fitWidth,
                   alignment: Alignment.center,
                 ),
               ),
               const SizedBox(height: 15.0),
               const TextBodoAmat(
-                24.0, 
+                17.0, 
                 'Eksfoliasi adalah prosedur untuk menghilangkan sel kulit mati dari lapisan atas kulit. untuk menjaga kulit tetap sehat dan menarik seiring bertambahnya usia, kamu perlu merawatnya lebih lanjut, dengan menghilangkan sel kulit baru yang diproduksi di permukaan dan mendorong perkembangan sel di lapisan subepidermal serta membantu membuka pori-pori kulit yang tersumbat. untuk eksfoliasi pada kulit digunakan eksfoliator.', 
                 TextAlign.center, 
                 Colors.white

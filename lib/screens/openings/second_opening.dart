@@ -23,13 +23,14 @@ class SecondOpening extends StatelessWidget {
               children: [
                 const SizedBox(height: 25.0),
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Column(
                       children: [
                         SizedBox(
                           width: 28.0,
                           child: Image.asset(
-                            'assets/images/stiker-1-left.png',
+                            'assets/images/stiker-1-left.webp',
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -37,7 +38,7 @@ class SecondOpening extends StatelessWidget {
                       ],
                     ),
                     const TextBoleh(
-                      40.0, 
+                      26.0, 
                       'Definisi Kosmetik', 
                       TextAlign.center,
                       Colors.white,
@@ -49,20 +50,20 @@ class SecondOpening extends StatelessWidget {
                 SizedBox(
                   width: 298*scaleWidth,
                   child: Image.asset(
-                    'assets/images/section-1/1-2.png',
+                    'assets/images/section-1/1-2.webp',
                     fit: BoxFit.cover,
                   ),
                 ),
                 const SizedBox(height: 20.0),
                 const TextBodoAmat(
-                  36.0, 
+                  26.0, 
                   'Kosmetik', 
                   TextAlign.center,
                   Colors.white
                 ),
                 const SizedBox(height: 15.0),
                 const TextBodoAmat(
-                  21.0, 
+                  17.0, 
                   'Bahan atau sediaan yang dimaksudkan untuk digunakan pada bagian luar tubuh manusia seperti epidermis, rambut, kuku, bibir, dan organ genital bagian luar atau gigi dan membran mukosa mulut terutama untuk membersihkan, mewangikan, mengubah penampilan, dan atau memperbaiki bau badan atau melindungi atau memelihara tubuh pada kondisi baik.', 
                   TextAlign.justify,
                   Colors.white

@@ -24,9 +24,9 @@ class ThirdSkin extends StatelessWidget {
                   Column(
                     children: [
                       SizedBox(
-                        width: 30.0,
+                        width: 28.0,
                         child: Image.asset(
-                          'assets/images/stiker-1-left.png',
+                          'assets/images/stiker-1-left.webp',
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -34,24 +34,25 @@ class ThirdSkin extends StatelessWidget {
                     ],
                   ),
                   const TextBoleh(
-                    38.0, 
+                    26.0, 
                     'Kulit Normal', 
                     TextAlign.center,
                     Colors.white,
                   ),
-                  const SizedBox(width: 30.0),
+                  const SizedBox(width: 28.0),
                 ],
               ),
               const TextBodoAmat(
-                18.0, 
+                14.0, 
                 'Kulit normal (normal skin) adalah kulit dengan kadar air yang tinggi, dan kadar minyak rendah sampai normal, yang ditandai dengan ciri-ciri:', 
                 TextAlign.center,
                 Colors.white
               ),
+              const SizedBox(height: 20.0),
               SizedBox(
                 width: double.infinity,
                 child: Image.asset(
-                  'assets/images/section-2/skin-2.png',
+                  'assets/images/section-2/skin-2.webp',
                   fit: BoxFit.fitWidth,
                   alignment: Alignment.bottomCenter,
                 ),

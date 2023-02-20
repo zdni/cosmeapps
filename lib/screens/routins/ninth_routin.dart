@@ -7,10 +7,8 @@ class NinthRoutin extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-    double height = MediaQuery.of(context).size.height;
 
     double scaleWidth = width/511;
-    double scaleHeight = height/1077;
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 153, 204, 204),
       body: SingleChildScrollView(
@@ -22,14 +20,14 @@ class NinthRoutin extends StatelessWidget {
               SizedBox(
                 width: 405*scaleWidth,
                 child: Image.asset(
-                  'assets/images/section-3/3-14.png',
+                  'assets/images/section-3/3-14.webp',
                   fit: BoxFit.fitWidth,
                   alignment: Alignment.center,
                 ),
               ),
               const SizedBox(height: 25.0),
               const TextBodoAmat(
-                24.0, 
+                17.0, 
                 'paparan sinar matahari yang berlebihan atau dalam jangka waktu yang lama dapat menimbulkan efek negatif pada kulit, seperti:', 
                 TextAlign.center, 
                 Colors.white
@@ -38,7 +36,7 @@ class NinthRoutin extends StatelessWidget {
               SizedBox(
                 width: 511*scaleWidth,
                 child: Image.asset(
-                  'assets/images/section-3/3-15.png',
+                  'assets/images/section-3/3-15.webp',
                   fit: BoxFit.fitWidth,
                   alignment: Alignment.center,
                 ),
@@ -47,12 +45,12 @@ class NinthRoutin extends StatelessWidget {
               SizedBox(
                 width: 511*scaleWidth,
                 child: Image.asset(
-                  'assets/images/section-3/3-16.png',
+                  'assets/images/section-3/3-16.webp',
                   fit: BoxFit.fitWidth,
                   alignment: Alignment.center,
                 ),
               ),
-              const SizedBox(height: 45.0),
+              const SizedBox(height: 60.0),
             ],
           ),
         ),

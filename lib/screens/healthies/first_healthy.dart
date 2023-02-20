@@ -24,7 +24,7 @@ class FirstHealthy extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 42.0*scaleWidth),
               child: const Center(
                 child: TextBodoAmat(
-                  32.0,
+                  26.0,
                   'Hai beauty people, penggunaan rangkaian skincare dengan berbagai macam kandungannya yang bervariasi tentunya bertujuan agar kita memiliki kulit yang sehat, nah seperti apa sih kulit sehat itu?',
                   TextAlign.center,
                   Colors.white,
@@ -37,7 +37,7 @@ class FirstHealthy extends StatelessWidget {
             width: 405*scaleWidth,
             height: 525*scaleHeight,
             child: Image.asset(
-              'assets/images/section-5/5-1.png',
+              'assets/images/section-5/5-1.webp',
               fit: BoxFit.fitHeight,
               alignment: Alignment.bottomCenter,
             ),

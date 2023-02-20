@@ -27,7 +27,7 @@ class FirstOpening extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 42.0*scaleWidth),
                   child: const Center(
                     child: TextBodoAmat(
-                      32.0,
+                      26.0,
                       'Sebelum kita belajar lebih lanjut mengenai kosmetik, kenali dulu yuk apasih kosmetik itu.......',
                       TextAlign.center,
                     Colors.white
@@ -42,7 +42,7 @@ class FirstOpening extends StatelessWidget {
             width: 405*scaleWidth,
             height: 525*scaleHeight,
             child: Image.asset(
-              'assets/images/section-1/1-1.png',
+              'assets/images/section-1/1-1.webp',
               fit: BoxFit.fitHeight,
               alignment: Alignment.bottomCenter,
             ),

@@ -9,13 +9,13 @@ class TextBodoAmat extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double h = MediaQuery.of(context).textScaleFactor;
+    // double h = MediaQuery.of(context).textScaleFactor;
     
     return Text(
       text,
       style: TextStyle(
         fontFamily: "BodoAmat",
-        fontSize: fontSize*h,
+        fontSize: fontSize,
         color: textColor,
       ),
       textAlign: _textAlign,

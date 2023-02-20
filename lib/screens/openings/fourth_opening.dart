@@ -24,9 +24,9 @@ class FourthOpening extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const SizedBox(width: 30.0),
+                  const SizedBox(width: 28.0),
                   const TextBoleh(
-                    30.0, 
+                    26.0, 
                     'Penggolongan Kosmetik', 
                     TextAlign.center, 
                     Colors.white
@@ -34,9 +34,9 @@ class FourthOpening extends StatelessWidget {
                   Column(
                     children: [
                       SizedBox(
-                        width: 30.0,
+                        width: 28.0,
                         child: Image.asset(
-                          'assets/images/stiker-1-right.png',
+                          'assets/images/stiker-1-right.webp',
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -46,7 +46,7 @@ class FourthOpening extends StatelessWidget {
                 ],
               ),
               const TextBodoAmat(
-                18.0, 
+                17.0, 
                 '2) Berdasarkan sifat dan cara pembuatan', 
                 TextAlign.center, 
                 Colors.white
@@ -60,9 +60,9 @@ class FourthOpening extends StatelessWidget {
                     children: [
                       Container(
                         margin: const EdgeInsets.only(right: 15.0),
-                        width: 216*scaleWidth,
+                        width: 210*scaleWidth,
                         child: Image.asset(
-                          'assets/images/section-1/1-18.png',
+                          'assets/images/section-1/1-18.webp',
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -72,14 +72,14 @@ class FourthOpening extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: const [
                             TextBodoAmat(
-                              24.0, 
+                              17.0, 
                               '"Kosmetik Modern"', 
                               TextAlign.center, 
                               Colors.white
                             ),
                             SizedBox(height: 8),
                             TextBodoAmat(
-                              18.0, 
+                              14.0, 
                               'Kosmetik yang diramu dari bahan kimia dan diolah secara modern', 
                               TextAlign.left, 
                               Colors.black
@@ -99,14 +99,14 @@ class FourthOpening extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             const TextBodoAmat(
-                              24.0, 
+                              17.0, 
                               '"Kosmetik Tradisional"', 
                               TextAlign.center, 
                               Colors.white
                             ),
                             const SizedBox(height: 8),
                             const TextBodoAmat(
-                              18.0, 
+                              14.0, 
                               'Terbagi menjadi 3', 
                               TextAlign.left, 
                               Colors.black
@@ -131,13 +131,13 @@ class FourthOpening extends StatelessWidget {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: const [
                                       TextBodoAmat(
-                                        18.0, 
+                                        14.0, 
                                         '"Betul-betul tradisional"', 
                                         TextAlign.left, 
                                         Colors.black
                                       ),
                                       TextBodoAmat(
-                                        18.0, 
+                                        12.0, 
                                         'Misalnya lulur yang dibuat dari bahan alam diolah menurut resep dan cara yang turun temurun.', 
                                         TextAlign.left, 
                                         Colors.black
@@ -167,13 +167,13 @@ class FourthOpening extends StatelessWidget {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: const [
                                       TextBodoAmat(
-                                        18.0, 
+                                        14.0, 
                                         '"Semi tradisional"', 
                                         TextAlign.left, 
                                         Colors.black
                                       ),
                                       TextBodoAmat(
-                                        18.0, 
+                                        12.0, 
                                         'Diolah secara modern dan diberi bahan pengawet agar tahan lama.', 
                                         TextAlign.left, 
                                         Colors.black
@@ -203,13 +203,13 @@ class FourthOpening extends StatelessWidget {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: const [
                                       TextBodoAmat(
-                                        18.0, 
+                                        14.0, 
                                         '"Hanya namanya yang tradisional"', 
                                         TextAlign.left, 
                                         Colors.black
                                       ),
                                       TextBodoAmat(
-                                        18.0, 
+                                        12.0, 
                                         'Tanpa komponen yang benar-benar tradisional dan diberi zat warna yang menyerupai bahan tradisional', 
                                         TextAlign.left, 
                                         Colors.black
@@ -226,7 +226,7 @@ class FourthOpening extends StatelessWidget {
                         margin: const EdgeInsets.only(right: 15.0),
                         width: 196*scaleWidth,
                         child: Image.asset(
-                          'assets/images/section-1/1-19.png',
+                          'assets/images/section-1/1-19.webp',
                           fit: BoxFit.cover,
                         ),
                       ),

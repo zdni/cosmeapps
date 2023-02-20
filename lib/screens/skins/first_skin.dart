@@ -28,7 +28,7 @@ class FirstSkin extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 42.0*scaleWidth),
                   child: const Center(
                     child: TextBodoAmat(
-                      26.0,
+                      22.0,
                       'Nah sekarang kita sudah tahu apa yang dimaksud dengan kosmetik dan kosmetik medik.',
                       TextAlign.center,
                     Colors.white
@@ -39,7 +39,7 @@ class FirstSkin extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 42.0*scaleWidth),
                   child: const Center(
                     child: TextBodoAmat(
-                      26.0,
+                      22.0,
                       'Sebelum menggunakan kosmetik, untuk mendapatkan hasil maksimal, kosmetik yang digunakan harus sesuai dengan jenis kulit ya,,',
                       TextAlign.center,
                     Colors.white
@@ -51,7 +51,7 @@ class FirstSkin extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 42.0*scaleWidth),
                   child: const Center(
                     child: TextBodoAmat(
-                      26.0,
+                      22.0,
                       'Yuk kenali jenis kulit kalian....',
                       TextAlign.center,
                     Colors.white
@@ -66,7 +66,7 @@ class FirstSkin extends StatelessWidget {
             width: 405*scaleWidth,
             height: 525*scaleHeight,
             child: Image.asset(
-              'assets/images/section-2/2-1.png',
+              'assets/images/section-2/2-1.webp',
               fit: BoxFit.fitHeight,
               alignment: Alignment.bottomCenter,
             ),

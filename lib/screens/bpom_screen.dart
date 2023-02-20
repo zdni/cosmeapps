@@ -22,7 +22,7 @@ class BPOMScreen extends StatelessWidget {
               SizedBox(
                 width: 110.0,
                 child: Image.asset(
-                  'assets/images/logo-bpom.png',
+                  'assets/images/logo-bpom.webp',
                   fit: BoxFit.fitHeight,
                 ),
               ),
