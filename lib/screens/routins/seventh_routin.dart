@@ -59,7 +59,7 @@ class SeventRoutin extends StatelessWidget {
               const SizedBox(height: 10.0),
               const TextBodoAmat(
                 14.0, 
-                'Untuk kamu yang memiliki kulit normal sampai kering, pelembab yang cocok bersifat ringan dan tidak mengandung alkohol atau parfum. Pelembab juga harus tebal dan berminyak untuk mengunci kelembaban yang dibutuhkan untuk perawatan kulit kering yang baik.', 
+                'Untuk kamu yang memiliki kulit berminyak gunakan pelembab dengan bentuk gel karena teksturnya ringan, mudah meresap, dan tidak menyumbat pori-pori', 
                 TextAlign.left, 
                 Colors.white
               ),

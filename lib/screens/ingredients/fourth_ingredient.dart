@@ -36,7 +36,7 @@ class FourthIngredient extends StatelessWidget {
                 const Expanded(
                   flex: 1,
                   child: TextBodoAmat(
-                    26.0,
+                    17.0,
                     'merupakan antioksidan, sehingga digunakan sebagai antipenuaan (antiaging)',
                     TextAlign.left,
                   Colors.white
@@ -74,7 +74,7 @@ class FourthIngredient extends StatelessWidget {
             const SizedBox(height: 15.0),
             const TextBodoAmat(
               17.0, 
-              'Nianinamide dapat digunakan oleh', 
+              'Niacinamide dapat digunakan oleh', 
               TextAlign.center, 
               Colors.white
             ),
@@ -82,7 +82,7 @@ class FourthIngredient extends StatelessWidget {
               17.0, 
               'semua jenis kulit', 
               TextAlign.center, 
-              Colors.red
+              Color.fromARGB(255, 255, 133, 161)
             ),
             const SizedBox(height: 25.0),
             Container(
@@ -102,7 +102,7 @@ class FourthIngredient extends StatelessWidget {
                     14.0, 
                     'konsentrasi niacinamide yang digunakan adalah:', 
                     TextAlign.left, 
-                    Colors.red
+                    Color.fromARGB(255, 255, 133, 161)
                   ),
                   const SizedBox(height: 8.0),
                   Row(
@@ -111,7 +111,7 @@ class FourthIngredient extends StatelessWidget {
                         26.0, 
                         '2%', 
                         TextAlign.center, 
-                        Colors.red
+                        Color.fromARGB(255, 255, 133, 161)
                       ),
                       SizedBox(width: 8.0),
                       Expanded(
@@ -132,7 +132,7 @@ class FourthIngredient extends StatelessWidget {
                         26.0, 
                         '4%', 
                         TextAlign.center, 
-                        Colors.red
+                        Color.fromARGB(255, 255, 133, 161)
                       ),
                       SizedBox(width: 8.0),
                       Expanded(
@@ -153,14 +153,14 @@ class FourthIngredient extends StatelessWidget {
                         26.0, 
                         '5%', 
                         TextAlign.center, 
-                        Colors.red
+                        Color.fromARGB(255, 255, 133, 161)
                       ),
                       SizedBox(width: 8.0),
                       Expanded(
                         flex: 1,
                         child: TextBodoAmat(
                           14, 
-                          'untuk mengatasi flex dan minyak berlebih', 
+                          'untuk mengatasi flek dan minyak berlebih', 
                           TextAlign.left, 
                           Colors.black
                         ),

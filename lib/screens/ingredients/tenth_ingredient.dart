@@ -37,7 +37,7 @@ class TenthIngredient extends StatelessWidget {
                   child: TextBodoAmat(
                     14.0, 
                     'Ceramide adalah lemak yang dihasilkan secara alami oleh kulit. susunan dan isinya sangat diperlukan untuk mempertahankan fungsi penghalang kulit', 
-                    TextAlign.justify, 
+                    TextAlign.left, 
                     Colors.white
                   ),
                 ),

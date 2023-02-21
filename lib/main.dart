@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:cosmeapps/screens/logo_screen.dart';
 import 'package:cosmeapps/screens/splash_screen.dart';
 import 'package:cosmeapps/screens/home_screen.dart';
 import 'package:cosmeapps/screens/opening_screen.dart';
@@ -22,8 +23,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'COSME.Apps',
-      initialRoute: SplashScreen.routeName,
+      initialRoute: LogoScreen.routeName,
       routes: {
+        LogoScreen.routeName: (context) => const LogoScreen(),
         SplashScreen.routeName: (context) => const SplashScreen(),
         HomeScreen.routeName: (context) => const HomeScreen(),
         OpeningScreen.routeName: (context) => const OpeningScreen(),

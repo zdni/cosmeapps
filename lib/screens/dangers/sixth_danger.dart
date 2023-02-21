@@ -23,7 +23,7 @@ class SixthDanger extends StatelessWidget {
               const SizedBox(height: 25.0),
               const TextBoleh(
                 26.0, 
-                'Resornil', 
+                'Resorsinol', 
                 TextAlign.center, 
                 Colors.white
               ),
@@ -37,7 +37,7 @@ class SixthDanger extends StatelessWidget {
               ),
               const TextBodoAmat(
                 14.0, 
-                'adalah golongan obat keras yang dilarang penggunaannya pada perawatan kulit. Penggunaan resorsinal dosis tinggi dapat menyebabkan kulit kemerahan dan iritasi', 
+                'adalah golongan obat keras yang dilarang penggunaannya pada perawatan kulit. Penggunaan resorsinol dosis tinggi dapat menyebabkan kulit kemerahan dan iritasi', 
                 TextAlign.center, 
                 Colors.white
               ),
@@ -58,7 +58,7 @@ class SixthDanger extends StatelessWidget {
                       ),
                       child: const TextBodoAmat(
                         14.0, 
-                        'penggunaannya hanya boleh sebagai bahan pengoksidasi warna pada pewarna rambut shampo dan losio untuk rambut.', 
+                        'penggunaannya hanya boleh sebagai bahan pengoksidasi warna pada pewarna rambut shampo dan losion untuk rambut.', 
                         TextAlign.center, 
                         Color.fromARGB(255, 153, 204, 204),
                       ),

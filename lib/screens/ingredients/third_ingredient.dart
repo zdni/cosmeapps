@@ -128,7 +128,7 @@ class ThirdIngredient extends StatelessWidget {
                 const Padding(
                   padding: EdgeInsets.only(top: 10.0, left: 8.0, right: 8.0),
                   child: TextBodoAmat(
-                    15.0, 
+                    10.0, 
                     'sehingga penggunaan retinol ini disarankan digunakan oleh kulit normal dan berminyak', 
                     TextAlign.center, 
                     Colors.black
@@ -158,7 +158,7 @@ class ThirdIngredient extends StatelessWidget {
                     Colors.black
                   ),
                 ),
-                const SizedBox(width: 15.0),
+                const SizedBox(width: 65.0),
               ],
             ),
           ],

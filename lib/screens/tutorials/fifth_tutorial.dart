@@ -30,7 +30,7 @@ class FifthTutorial extends StatelessWidget {
                   30.0, 
                   'I', 
                   TextAlign.center, 
-                  Colors.red
+                  Color.fromARGB(255, 255, 133, 161)
                 ),
                 TextBoleh(
                   30.0, 

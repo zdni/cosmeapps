@@ -100,7 +100,7 @@ class BPOMScreen extends StatelessWidget {
                       ),
                       borderRadius: BorderRadius.circular(8.0)
                     ),
-                    child: const Text('Buka Portal BPOM'),
+                    child: const Text('Cek Keamanan Kosmetik'),
                   ),
                 ),
               ),

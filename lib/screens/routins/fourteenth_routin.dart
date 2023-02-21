@@ -50,7 +50,7 @@ class FourteenthRoutin extends StatelessWidget {
               const SizedBox(height: 25.0),
               const TextBodoAmat(
                 20.0, 
-                '"Eksfoliasi Ensim"', 
+                '"Eksfoliasi Enzim"', 
                 TextAlign.center, 
                 Colors.white
               ),

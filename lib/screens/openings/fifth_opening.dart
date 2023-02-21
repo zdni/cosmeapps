@@ -24,23 +24,26 @@ class FifthOpening extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const SizedBox(width: 28.0),
-                  const TextBoleh(
-                    26.0, 
-                    'Penggolongan Kosmetik', 
-                    TextAlign.center, 
-                    Colors.white
-                  ),
-                  Column(
-                    children: [
-                      SizedBox(
-                        width: 28.0,
-                        child: Image.asset(
-                          'assets/images/stiker-1-right.webp',
-                          fit: BoxFit.cover,
+                  Expanded(
+                    flex: 1,
+                    child: Column(
+                      children: const [
+                        SizedBox(height: 40.0),
+                        TextBoleh(
+                          26.0, 
+                          'Penggolongan Kosmetik', 
+                          TextAlign.center, 
+                          Colors.white
                         ),
-                      ),
-                      const SizedBox(height: 40.0),
-                    ],
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    width: 28.0,
+                    child: Image.asset(
+                      'assets/images/stiker-1-right.webp',
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ],
               ),

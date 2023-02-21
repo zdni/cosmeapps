@@ -25,7 +25,7 @@ class _SixthOpeningState extends State<SixthOpening> {
     },
     {
       'image': 'assets/images/section-1/1-26.webp',
-      'text': 'kosmetik medik untuk mengatasi kelainan kulit seperti jerawat dan noda hitam (antiaging)',
+      'text': 'kosmetik medik untuk mengatasi kelainan kulit seperti jerawat dan noda hitam (hiperpigmentasi)',
     },
     {
       'image': 'assets/images/section-1/1-27.webp',
@@ -60,41 +60,39 @@ class _SixthOpeningState extends State<SixthOpening> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Column(
-                    children: [
-                      SizedBox(
-                        width: 28.0,
-                        child: Image.asset(
-                          'assets/images/stiker-1-left.webp',
-                          fit: BoxFit.cover,
-                        ),
-                      ),
-                      const SizedBox(height: 40.0),
-                    ],
+                  SizedBox(
+                    width: 28.0,
+                    child: Image.asset(
+                      'assets/images/stiker-1-left.webp',
+                      fit: BoxFit.cover,
+                    ),
                   ),
-                  const TextBoleh(
-                    26.0, 
-                    'Penggolongan Kosmetik', 
-                    TextAlign.center, 
-                    Colors.white
-                  ),
-                  Column(
-                    children: [
-                      SizedBox(
-                        width: 28.0,
-                        child: Image.asset(
-                          'assets/images/stiker-1-right.webp',
-                          fit: BoxFit.cover,
+                  Expanded(
+                    flex: 1,
+                    child: Column(
+                      children: const [
+                        SizedBox(height: 40.0),
+                        TextBoleh(
+                          26.0, 
+                          'Kosmetik Medik', 
+                          TextAlign.center, 
+                          Colors.white
                         ),
-                      ),
-                      const SizedBox(height: 40.0),
-                    ],
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    width: 28.0,
+                    child: Image.asset(
+                      'assets/images/stiker-1-right.webp',
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ],
               ),
               const TextBodoAmat(
                 14.0, 
-                'Sejak tahun 1995, Prof. Dr. Lubowe mengemukanan perlunya kosmetik dengan bahan bahan yang secara farmakologis aktif atau bahan obat untuk menyembuhkan kelainan pada kulit dan adneksonanya, atau minimal mempertahankan kondisi kulit yang sudah baik. Kosmetik seperti itu disebut cosmedics singkatan dari Medicated Cosmetics (Kosmetik Medik)', 
+                'Sejak tahun 1995, Prof. Dr. Lubowe mengemukanan perlunya kosmetik dengan bahan bahan yang secara farmakologis aktif atau bahan obat untuk menyembuhkan kelainan pada kulit, atau minimal mempertahankan kondisi kulit yang sudah baik. Kosmetik seperti itu disebut cosmedics singkatan dari Medicated Cosmetics (Kosmetik Medik)', 
                 TextAlign.justify, 
                 Colors.white
               ),

@@ -19,7 +19,7 @@ class SixthRoutin extends StatelessWidget {
             children: [
               const SizedBox(height: 45.0),
               const TextBodoAmat(
-                20.0, 
+                17.0, 
                 'Berdasarkan bahan dasar dalam komposisinya, moisturizer dibagi menjadi 3, yaitu:', 
                 TextAlign.center, 
                 Colors.white

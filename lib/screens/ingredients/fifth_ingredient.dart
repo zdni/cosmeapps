@@ -98,7 +98,7 @@ class FifthIngredient extends StatelessWidget {
                       vertical: 8.0,
                     ),
                     child: const TextBodoAmat(
-                      14.0, 
+                      10.0, 
                       'AHA mempunyai efek yang sangat besar terhadap keratinasi/pembentukan stratum korneum baru dan menstimulasi sintesa kolagen yang bisa membuat kulit menjadi lembut dan awet muda.', 
                       TextAlign.left, 
                       Colors.black54
@@ -121,14 +121,14 @@ class FifthIngredient extends StatelessWidget {
               child: Column(
                 children: const [
                   TextBodoAmat(
-                    14.0, 
+                    12.0, 
                     'konsentrasi AHA yang dianjurkan adalah 3-8%', 
                     TextAlign.center, 
-                    Colors.red
+                    Color.fromARGB(255, 255, 133, 161)
                   ),
                   SizedBox(height: 5.0),
                   TextBodoAmat(
-                    11.0, 
+                    10.0, 
                     'konsentrasi yang lebih tinggi sebaiknya di bawah pengawasan dokter', 
                     TextAlign.center, 
                     Colors.black
@@ -303,8 +303,7 @@ class FifthIngredient extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 8.0),
-            Container(
-              margin: const EdgeInsets.symmetric(horizontal: 15.0),
+            SizedBox(
               width: double.infinity,
               child: Image.asset(
                 'assets/images/section-4/4-29.webp',

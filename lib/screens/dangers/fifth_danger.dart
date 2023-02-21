@@ -23,7 +23,7 @@ class FifthDanger extends StatelessWidget {
               const SizedBox(height: 25.0),
               const TextBoleh(
                 26.0, 
-                'Tretinom', 
+                'Tretinoin', 
                 TextAlign.center, 
                 Colors.white
               ),
@@ -99,7 +99,7 @@ class FifthDanger extends StatelessWidget {
                     flex: 1,
                     child: TextBodoAmat(
                       14.0, 
-                      'Tretinun banyak disalahgunakan pada sediaan peeling, sediaan untuk kulit berjerawat dan pencerah kulit dengan mekanisme pengelupasan kulit.', 
+                      'Tretinoin banyak disalahgunakan pada sediaan peeling, sediaan untuk kulit berjerawat dan pencerah kulit dengan mekanisme pengelupasan kulit.', 
                       TextAlign.left, 
                       Colors.white
                     ),
@@ -127,7 +127,7 @@ class FifthDanger extends StatelessWidget {
                 ),
                 child: const TextBodoAmat(
                   14.0, 
-                  'zat ini menyebabkan kulit gatal, bengkok, rasa terbakar, kemerahan, dan mengelupas, bertambahnya luka, dan kulit menjadi lebih gelap atau lebih terang pada area yang diolesi', 
+                  'zat ini menyebabkan kulit gatal, bengkak, rasa terbakar, kemerahan, dan mengelupas, bertambahnya luka, dan kulit menjadi lebih gelap atau lebih terang pada area yang diolesi', 
                   TextAlign.center, 
                   Color.fromARGB(255, 153, 204, 204),
                 ),

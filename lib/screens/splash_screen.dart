@@ -13,10 +13,8 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-    double height = MediaQuery.of(context).size.height;
 
     double scaleWidth = width/511;
-    double scaleHeight = height/1077;
 
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 153, 204, 204),
@@ -26,8 +24,7 @@ class SplashScreen extends StatelessWidget {
             bottom: 0,
             left: 0,
             child: SizedBox(
-              width: 404*scaleWidth,
-              height: 500*scaleHeight,
+              width: 360*scaleWidth,
               child: Image.asset(
                 'assets/images/avatar-opening.webp',
                 fit: BoxFit.fitHeight,
@@ -38,20 +35,20 @@ class SplashScreen extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SizedBox(height: 45.0*scaleHeight),
+              const SizedBox(height: 45.0),
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 42.0*scaleWidth),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     const TextBoleh(
-                      36.0, 
+                      28.0, 
                       'Hello beauty people..', 
                       TextAlign.center,
                       Colors.white
                     ),
                     const TextBoleh(
-                      36.0, 
+                      28.0, 
                       'Welcome to..',
                       TextAlign.center,
                       Colors.white
@@ -64,7 +61,7 @@ class SplashScreen extends StatelessWidget {
                     const SizedBox(height: 25.0),
                     const TextBodoAmat(
                       22.0, 
-                      'Terimakasih telah menginstall aplikasi ini di smartphone kamu, yuk tingkatkan pengetahuanmu tentang kosmetik bersama cosme.apps', 
+                      'Terimakasih telah mengunduh aplikasi ini di smartphone kamu, yuk tingkatkan pengetahuanmu tentang kosmetik bersama cosme.apps', 
                       TextAlign.center,
                       Colors.white,
                     ),

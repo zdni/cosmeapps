@@ -18,13 +18,14 @@ class FirstHealthy extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 153, 204, 204),
       body: Column(
         children: [
+          const SizedBox(height: 42.0),
           Expanded(
             flex: 1,
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 42.0*scaleWidth),
               child: const Center(
                 child: TextBodoAmat(
-                  26.0,
+                  22.0,
                   'Hai beauty people, penggunaan rangkaian skincare dengan berbagai macam kandungannya yang bervariasi tentunya bertujuan agar kita memiliki kulit yang sehat, nah seperti apa sih kulit sehat itu?',
                   TextAlign.center,
                   Colors.white,

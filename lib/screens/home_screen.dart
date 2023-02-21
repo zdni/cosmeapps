@@ -56,7 +56,7 @@ class HomeScreen extends StatelessWidget {
       },
       {
         'image': 'assets/images/icon-menu/menu-8.webp',
-        'title': 'Portal BPOM',
+        'title': 'Cek Keamanan Produk Kosmetik',
         'route': BPOMScreen.routeName,
       },
 

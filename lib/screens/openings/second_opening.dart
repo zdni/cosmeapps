@@ -25,23 +25,26 @@ class SecondOpening extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Column(
-                      children: [
-                        SizedBox(
-                          width: 28.0,
-                          child: Image.asset(
-                            'assets/images/stiker-1-left.webp',
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                        const SizedBox(height: 60.0),
-                      ],
+                    SizedBox(
+                      width: 28.0,
+                      child: Image.asset(
+                        'assets/images/stiker-1-left.webp',
+                        fit: BoxFit.cover,
+                      ),
                     ),
-                    const TextBoleh(
-                      26.0, 
-                      'Definisi Kosmetik', 
-                      TextAlign.center,
-                      Colors.white,
+                    Expanded(
+                      flex: 1,
+                      child: Column(
+                        children: const [
+                          SizedBox(height: 40.0),
+                          TextBoleh(
+                            26.0, 
+                            'Definisi Kosmetik', 
+                            TextAlign.center,
+                            Colors.white,
+                          ),
+                        ],
+                      ),
                     ),
                     const SizedBox(width: 28.0),
                   ],

@@ -19,7 +19,13 @@ class FifthRoutin extends StatelessWidget {
             const SizedBox(height: 45.0),
             const TextBoleh(
               26.0, 
-              'Pelembab kulit (moisturizer)', 
+              'Pelembab kulit', 
+              TextAlign.center, 
+              Colors.white,
+            ),
+            const TextBoleh(
+              26.0, 
+              '(moisturizer)', 
               TextAlign.center, 
               Colors.white,
             ),

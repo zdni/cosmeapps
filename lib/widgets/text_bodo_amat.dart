@@ -9,16 +9,20 @@ class TextBodoAmat extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // double h = MediaQuery.of(context).textScaleFactor;
+    double h = MediaQuery.of(context).textScaleFactor;
     
-    return Text(
-      text,
-      style: TextStyle(
-        fontFamily: "BodoAmat",
-        fontSize: fontSize,
-        color: textColor,
+    return MediaQuery(
+      data: MediaQuery.of(context).copyWith(textScaleFactor: h),
+      child: Text(
+        text,
+        style: TextStyle(
+          fontFamily: "BodoAmat",
+          fontSize: fontSize,
+          color: textColor,
+        ),
+        // textScaleFactor: h,
+        textAlign: _textAlign,
       ),
-      textAlign: _textAlign,
     );
   }
 }
