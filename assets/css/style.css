@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "BodoAmat";
+    src: url("../fonts/bodo_amat.otf") format("opentype");
+}
+@font-face {
+    font-family: "Boleh";
+    src: url("../fonts/boleh.otf") format("opentype");
+}
+
+.font_bodo_amat { font-family: "BodoAmat"; }
+.font_boleh { font-family: "Boleh"; }
+
+#container {
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+}
+
+#avatar-opening {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
